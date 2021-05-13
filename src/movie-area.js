@@ -9,6 +9,7 @@ const Area = ({ movies }) => {
       <Card
       title= {movie.title}
       img= {movie.poster_path}
+      key= {movie.id}
       />
     )
   })
